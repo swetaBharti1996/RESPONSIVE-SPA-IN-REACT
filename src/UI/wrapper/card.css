@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+  div.wrapper {
+    display: block;
+    margin-top: 12%;
+  }
+}
+@media screen and (max-width: 576px) {
+  div.ok {
+    display: block;
+  }
+}
+
+.card {
+  width: 300px;
+  margin-top: 3%;
+}
+.cardParent {
+  height: 300px;
+  background: #717072 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+}
+.childCard {
+  height: 70px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 1;
+}
+.PROJECT_TITLE {
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: Montserrat;
+  letter-spacing: 0px;
+  color: #2b2a2c;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0.5rem;
+}
+.CATEGORY {
+  font-weight: normal;
+  font-size: 0.6rem;
+  font-family: Montserrat;
+  letter-spacing: 0px;
+  color: #2b2a2c;
+  opacity: 1;
+  margin: 0.8rem 0.5rem;
+}

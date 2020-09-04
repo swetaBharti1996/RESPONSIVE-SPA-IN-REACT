@@ -1,0 +1,141 @@
+.margin_devide {
+  margin: 10% 2%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.hello {
+  font-family: montserrat;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #8c8c8d;
+  letter-spacing: 50;
+}
+.lewis {
+  font-family: montserrat;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: #2b2a2c;
+  letter-spacing: 50;
+}
+@media screen and (max-width: 576px) {
+  h4.lewis {
+    font-size: 10px;
+    display: flex;
+  }
+}
+.UI {
+  font-family: montserrat;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #bdbddd;
+  letter-spacing: 50;
+}
+.socialIcons {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -0.4rem;
+}
+.socialLogo {
+  height: 30px;
+  width: 30px;
+  letter-spacing: 150;
+  margin-left: 6px;
+}
+.socialLogo1 {
+  height: 30px;
+  width: 30px;
+}
+.manImage {
+  opacity: 1;
+  height: 30rem;
+}
+.groupBtn {
+  color: white;
+  font-weight: regular;
+  font-family: montserrat;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0.7px;
+  background-color: #332f30;
+  font-size: 10px;
+  padding: 15px 45px;
+  border-radius: 24px;
+  border: navajowhite;
+}
+.groupBtn1 {
+  color: #8c8d8c;
+  font-weight: regular;
+  font-family: montserrat;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0.7px;
+  background-color: white;
+  font-size: 10px;
+  padding: 15px 30px;
+  border-radius: 24px;
+  border: 1px solid #332f30;
+  margin-left: 0.5rem;
+}
+.btngrp {
+  display: flex;
+  margin-top: 3%;
+}
+.loadMore {
+  color: #8c8d8c;
+  font-weight: regular;
+  font-family: montserrat;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.7px;
+  background-color: white;
+  font-size: 10px;
+  padding: 15px 30px;
+  border-radius: 24px;
+  border: 1px solid #332f30;
+  margin-left: 0.5rem;
+  justify-content: center;
+  width: 200px;
+  margin: 3% 40%;
+}
+@media screen and (max-width: 576px) {
+  div.heading {
+    display: block;
+    margin: 2% 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  div.socialIcons {
+    margin: 1% 61%;
+  }
+}
+@media screen and (max-width: 768px) {
+  div.socialIcons {
+    margin: 1% 10%;
+  }
+}
+@media screen and (max-width: 992px) {
+  div.socialIcons {
+    margin: 1% 10%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  div.margin_devide {
+    margin: 1% 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  img.manImage {
+    height: 400px;
+    margin-top: 42%;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  div.loadMore {
+    margin: 3% 18%;
+  }
+}

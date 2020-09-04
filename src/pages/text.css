@@ -1,0 +1,13 @@
+.headingText {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.allText {
+  font-family: montserrat;
+  font-size: 1.3rem;
+  font-weight: regular;
+  color: #8c8c8d;
+  letter-spacing: 50;
+  margin-left: 1rem;
+}

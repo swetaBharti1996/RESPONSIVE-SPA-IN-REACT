@@ -1,0 +1,75 @@
+.childCard1 {
+  height: 200px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 1;
+}
+.TEN {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Montserrat;
+  letter-spacing: 0.9px;
+  color: #2b2a2c;
+  opacity: 1;
+}
+.CATEGORY1 {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: Montserrat;
+  letter-spacing: 0.6px;
+  color: #2b2a2c;
+  opacity: 1;
+}
+.Loremm {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: Montserrat;
+  letter-spacing: 0px;
+  color: #6a696b;
+  opacity: 1;
+}
+
+.READ_MORE {
+  color: white;
+  font-weight: regular;
+  font-family: montserrat;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0.7px;
+  background-color: #332f30;
+  font-size: 10px;
+  padding: 15px 25px;
+  border-radius: 24px;
+  border: navajowhite;
+  width: 150px;
+}
+.childCardtextt {
+  margin: 3% 3%;
+}
+.READ_MOREBTN {
+  color: #8c8d8c;
+  font-weight: regular;
+  font-family: montserrat;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0.7px;
+  background-color: white;
+  font-size: 10px;
+  padding: 15px 25px;
+  border-radius: 24px;
+  width: 150px;
+  border: 1px solid #332f30;
+}
+@media screen and (max-width: 768px) {
+  div.home-main-div {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 992px) {
+  div.childCard1 {
+    height: 250px;
+  }
+}
